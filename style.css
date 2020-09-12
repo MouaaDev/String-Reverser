@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+i {
+  pointer-events: none;
+}
+
+.background {
+  height: 100vh;
+  background: radial-gradient(#ffffff, #b6b6b6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  padding-bottom: 5rem;
+  font-size: 2.5rem;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+#title {
+  font-weight: bold;
+}
+
+.header:hover {
+  transform: rotateY(180deg);
+}
+
+.header img {
+  width: 35px;
+  margin-right: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+form textarea {
+  resize: none;
+  padding: 1rem;
+  background: #101010;
+  border: none;
+  margin: 1rem;
+  color: white;
+  font-family: inherit;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+}
+
+.input-field,
+.output-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.output-field {
+  transform: translateX(3%);
+}
+
+.submit {
+  margin: 1rem;
+  transform: translateX(14%);
+}
+
+button {
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.rev-btn {
+  background: #101010;
+  color: #dadada;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.clear-btn,
+.copy-btn {
+  background: #d1d1d1;
+  font-size: 1.6rem;
+  font-weight: 600;
+}

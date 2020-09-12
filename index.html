@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="./icon/app-symbol.svg" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>String Reverser</title>
+  </head>
+  <body>
+    <section class="background">
+      <div class="header">
+        <img src="./icon/app-symbol.svg" alt="app-symbol" />
+        <h1 id="title">String Reverser</h1>
+      </div>
+      <form id="form">
+        <div class="input-field">
+          <label for="text-input">Text Input</label>
+          <textarea
+            name="text-input"
+            id="text-input"
+            cols="20"
+            rows="3"
+          ></textarea>
+        </div>
+        <div class="output-field">
+          <label for="text-output">The Output</label>
+          <textarea
+            readonly
+            name="text-output"
+            id="text-output"
+            cols="20"
+            rows="3"
+          ></textarea>
+          <button class="copy-btn" id="copy-btn">
+            <i class="far fa-copy"></i>
+          </button>
+        </div>
+        <div class="submit">
+          <button class="rev-btn" type="submit">Reverse</button>
+          <button class="clear-btn" type="reset">Clear</button>
+        </div>
+      </form>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
